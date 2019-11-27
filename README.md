@@ -28,7 +28,7 @@ _Ejemplo: Si mouseX nos devuelve el valor 23, obtendremos como resultado de la f
 floor(0.71); //Resultado: 0
 ```
 De esta manera sabremos sobre que botón esta actualmente el cursor y al hacer click modificaremos su estado y almacenaremos su valor  en el array usando el espacio determinado por la fórmula. 
-El código de detección de colisiones entre los botones y el cursor se almacena dentro un `mouseRealesed` y una condicíon de colisión entre el cursor y el bloque entero de botones, de esta manera la verificación solo sucedera, si y solo si, el cursor se encuentra sobre un botón y unicamente luego de haber sido presionado.
+El código de detección de colisiones entre los botones y el cursor se almacena dentro un `mouseRealesed` y una condición de colisión entre el cursor y el bloque entero de botones, de esta manera la verificación solo sucedera, si y solo si, el cursor se encuentra sobre un botón y unicamente luego de haber sido presionado.
 
 ```Processing
 void mouseReleased() {
